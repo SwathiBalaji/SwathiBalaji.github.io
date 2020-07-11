@@ -1,0 +1,101 @@
+body
+{
+	background-color: #000000;
+	font-family: verdana;
+}
+button
+{
+background-color: transparent;
+border: none;
+outline: none;
+display: inline-block;
+}
+div
+{
+	display: inline-block;
+}
+a
+{
+	text-decoration: none;
+}
+
+.description
+{
+	color: #EBEBEB;
+	font-size: 12px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+	font-weight: lighter;
+	line-height: 200%;
+}
+.titles
+{
+	background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 60px;
+
+  animation: reveal 1000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
+
+
+}
+.prototype {
+	margin-left: 10%;
+  border: none;
+  color: #7C7C7C;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  background-color: #303030;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background:#d1d1d1;
+border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#b2b1b5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#636f87; 
+}
+
+
+
+
+@keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+}
+

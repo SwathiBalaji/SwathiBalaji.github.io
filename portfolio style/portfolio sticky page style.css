@@ -1,0 +1,91 @@
+body
+{
+	background-color:#F6F6F6;
+  font-family: verdana;
+  color: #015782;
+}
+button
+{
+background-color: transparent;
+border: none;
+outline: none;
+display: inline-block;
+}
+div
+{
+	display: inline-block;
+
+}
+.description
+{
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 14px;
+
+
+}
+
+.prototype
+{
+
+
+	 margin-left: 40%;
+	  padding: 15px 16px;
+	   text-align: center;
+  text-decoration: none;
+   font-size: 13px;
+  margin-bottom: 2%;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #3688E4;
+  border:none;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+.titles
+{
+	display: inline-block;
+	font-size: 30px;
+	 text-align: center;
+
+
+}
+
+#spin:after
+{
+	content:" ";
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% {  color: #3688E4; font-size: 25px; font-weight: bold;  content:" notes"; }
+  50% {   color: #3688E4; font-size: 25px; font-weight: bold; content:" reminders"; }
+  100% { color: #3688E4; font-size: 25px; font-weight: bold; content:" routines"; }
+  
+}
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background:#d1d1d1;
+border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#b2b1b5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#636f87; 
+}

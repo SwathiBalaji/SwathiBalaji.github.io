@@ -22,7 +22,8 @@ a
 
 .theimg
 {
-  width: 50%;
+  width: 70%;
+  margin: 10%;
 }
 .titlework
 {
@@ -45,7 +46,7 @@ display: inline-block;
 
 .container
 { 
-  margin: 1%;
+
 }
 .description
 {

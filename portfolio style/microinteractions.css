@@ -1,0 +1,91 @@
+body
+{ 
+  background-color:#EAE8EF;
+  font-family: verdana;
+
+}
+.title
+{
+	font-size: 14px;
+	margin-left: 18%;
+	margin-top: -10%;
+	line-height: 30px;
+	padding-left: 40px;
+	padding-right: 55px;
+}
+.cp_embed_wrapper {
+  height: 500px;
+  width: 1000px;
+  margin-left: 10%;
+  border-radius: 10px;
+  margin-bottom: 8%;
+  margin-top: 2%;
+  background:#564883; 
+
+}
+.cp_embed_wrapper iframe {
+
+  height: 100% !important;
+  border-radius:5px;
+  box-shadow: 
+     0px 0px 0px #564883;
+     transition-property: transform;
+     transition-duration: 0.6s;
+     
+}
+.cp_embed_wrapper iframe:hover
+{
+  transform: translate3d(20px,-20px,20px);
+
+  
+}
+div
+{
+  display: inline-block;
+}
+p
+{
+	display: inline-block;
+}
+a
+{
+  text-decoration: none;
+}
+
+.navbaricons
+{
+  width:2.5%;
+  margin-bottom: 13px;
+  
+  padding: 7px;
+  border-radius: 10px;
+}
+.navbaricons:hover
+{ transform: scale(1.1);
+}
+
+
+ 
+
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background:#d1d1d1;
+border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#b2b1b5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#636f87; 
+}

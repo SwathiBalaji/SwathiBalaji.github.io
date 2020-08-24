@@ -1,0 +1,97 @@
+body
+{
+  background-color: #262626;
+  font-family: verdana;
+  color: #ffffff;
+}
+button
+{
+background-color: transparent;
+border: none;
+outline: none;
+display: inline-block;
+}
+div
+{
+  display: inline-block;
+}
+a
+{
+  text-decoration: none;
+}
+
+
+.aboutme
+{
+  font-size: 15px;
+  opacity: 0.8;
+  float: right;
+  margin-top: 3%;
+  padding-left: 27%;
+  padding-right: 5%;
+  padding-top: 1%;
+  line-height: 35px;
+  
+}
+
+.socials
+{
+  
+
+  width: 3%;
+ 
+  padding: 5px;
+  border-radius: 4px;
+
+}
+
+.socials:hover
+{background-color: #262626;
+  box-shadow:  3px 3px 5px rgba(0,0,0,0.2),
+              -3px -3px 5px rgba(255,255,255,0.03);
+  
+  
+
+}
+.navbaricons
+{
+  width:2.5%;
+  margin-bottom: 13px;
+  
+  padding: 7px;
+ 
+}
+.navbaricons:hover
+{ transform: scale(1.1);
+  
+}
+.mypic
+{
+
+  margin-left: 60%;
+  
+  
+}
+
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background:#d1d1d1;
+border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#b2b1b5;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#636f87; 
+}
